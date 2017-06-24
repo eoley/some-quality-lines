@@ -1,0 +1,5 @@
+CREATE TABLE cars(id INTEGER PRIMARY KEY AUTOINCREMENT, make TEXT, model TEXT, category TEXT);
+INSERT INTO cars(make, model, category) VALUES('Ford', 'Five-Hundred', 'Sedan');
+INSERT INTO cars(make, model, category) VALUES('Mazda', '3', 'Hatchback');
+INSERT INTO cars(make, model, category) VALUES('Subaru', 'Impreza', 'Sedan');
+INSERT INTO cars(make, model, category) VALUES('Honda', 'Pilot', 'SUV');
